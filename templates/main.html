@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Shereen Hasan</h1>
+    <h2>1001437130</h2>
+    <meta charset="UTF-8">
+    <img src={{ url_for('static',filename ='cat.jpg')}} width=200 height=200>
+    <title>Title</title>
+</head>
+<body>
+<form action ='fileupload' method ="post" enctype="multipart/form-data">
+        <input type="file" name ="file"/>
+            <input type="file" name ="file"/>
+</form>
+<br>
+enter info:
+<form action ='result' method ="post" enctype="multipart/form-data">
+    city1 <input type="text" name ="text1"/> <br>
+    city2 <input type="text" name ="text2"/> <br>
+        <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>
